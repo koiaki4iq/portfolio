@@ -372,3 +372,57 @@ section h3 {
 }
 
 
+
+.web-distillery01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.web-distillery01 img {
+    max-width: 100%;
+    height: auto;
+}
+.web-distillery01 p {
+    padding: 0 0 0 5em;
+}
+.web-distillery02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+.web-distillery02 img {
+    max-width: 100%;
+    height: auto;
+}
+.web-distillery02 p {
+    padding: 0 5em 0 0;
+}
+
+.web-ring01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.web-ring01 img {
+    max-width: 100%;
+    height: auto;
+}
+.web-ring01 p {
+    padding: 0 0 0 5em;
+}
+.web-ring02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+.web-ring02 p {
+    padding: 0 5em 0 0;
+}
+.web-ring02 img {
+    max-width: 100%;
+    height: auto;
+}
