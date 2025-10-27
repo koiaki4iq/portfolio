@@ -25,7 +25,7 @@ h3 {
     font-size: 2.4rem;
 }
 p {
-    font-size: 1.4rem;
+    font-size: 1.65rem;
 }
 
 
@@ -69,7 +69,7 @@ details:hover {
 }
 
 details p {
-    width: 110px;
+    width: 130px;
     background-color: #fdcaca;
     padding: 0.5em;
     z-index: 1000;
@@ -227,6 +227,9 @@ footer li {
 footer p {
     margin: 7rem 2rem 0 0;
 }
+footer details {
+    margin-top: 1rem;
+}
 
 
 
@@ -279,3 +282,93 @@ footer p {
 .icon-grid img:hover {
     transform: scale(1.1);
 }
+
+section h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.gra-h1 {
+    margin: 10rem 0 5rem 0;
+}
+
+
+.gra-wine01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.gra-wine01 img {
+    max-width: 100%;
+    height: auto;
+}
+.gra-wine01 p {
+    padding: 0 0 0 5em;
+}
+.gra-wine02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem ;
+}
+.gra-wine02 p {
+    padding: 0 5em 0 0;
+}
+.gra-wine02 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.gra-ring01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+.gra-ring01 img {
+    max-width: 100%;
+    height: auto;
+}
+.fryer {
+}
+.fryer P {
+    padding: 0 0 3em 0;
+}
+.fryer img {
+    margin-top: 5rem;
+}
+.shopcard {
+    padding: 0 0 0 10em;
+}
+.shopcard p {
+    padding: 3em 0 0 3em;
+}
+
+.gra-leaflet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+.gra-leaflet img {
+    max-width: 100%;
+    height: auto;
+    padding: 0 10em 0 0;
+}
+
+.gra-businesscard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.gra-businesscard img {
+    max-width: 100%;
+    height: auto;
+    padding: 0 0 0 10rem;
+}
+
+
