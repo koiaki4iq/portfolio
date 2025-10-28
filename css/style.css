@@ -32,6 +32,8 @@ h3 {
 }
 p {
     font-size: 1.65rem;
+    letter-spacing: 0.8;
+    line-height: 2.0;
 }
 
 
@@ -259,8 +261,6 @@ footer details {
 }
 .about-contents01 p {
     padding: 0 0 0 5em;
-    letter-spacing: 0.8;
-    line-height: 2.0;
 }
 
 .about-section02{
