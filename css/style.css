@@ -55,12 +55,12 @@ nav ul {
     display: flex;
     margin: 2rem;
     z-index: 10000;
+    font-size: 2rem;
 }
 
 nav li {
     list-style: none;
     padding-right: 3em;
-    font-size: 2rem;
 }
 details:hover {
     cursor: pointer;
@@ -68,8 +68,8 @@ details:hover {
     text-decoration: underline;color: #333;
 }
 
-details p {
-    width: 130px;
+details li {
+    width: 160px;
     background-color: #fdcaca;
     padding: 0.5em;
     z-index: 1000;
@@ -423,6 +423,33 @@ section h3 {
     padding: 0 5em 0 0;
 }
 .web-ring02 img {
+    max-width: 100%;
+    height: auto;
+}
+.web-chair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+.web-chair img {
+    max-width: 100%;
+    height: auto;
+}
+.web-chair p {
+    padding: 0 0 0 5em;
+}
+
+.web-chair-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.web-chair-header p {
+    padding: 0 5em 0 0;
+}
+.web-chair-header img {
     max-width: 100%;
     height: auto;
 }
