@@ -21,6 +21,12 @@ h1 {
 h2 {
     font-size: 4.8rem;
 }
+section h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
 h3 {
     font-size: 2.4rem;
 }
@@ -76,7 +82,7 @@ details li {
 }
 
 .hero {
-    background-image: url(../img/hero1920792.png);
+    background-image: url(../img/hero1920800.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -238,18 +244,23 @@ footer details {
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    margin: 5rem 0 0 0;
-    padding: 20em 0 0 0;
+    margin: 0rem 0 0 0;
+    padding: 25em 0 0 0;
 }
 .about-section01 h1 {
-    padding: 0 0 3em 0;
+    padding: 0 0 0em 0;
 }
 
 .about-contents01{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0em 0 10em 0;
+    padding: 0em 0 30em 0;
+}
+.about-contents01 p {
+    padding: 0 0 0 5em;
+    letter-spacing: 0.8;
+    line-height: 2.0;
 }
 
 .about-section02{
@@ -261,6 +272,15 @@ footer details {
 }
 .about-section02 h1 {
     padding: 5em 0 0 0 ;
+    margin-bottom: 5rem;
+}
+.about-license {
+    margin-bottom: 5rem;
+}
+.about-license p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-grid {
@@ -283,12 +303,10 @@ footer details {
     transform: scale(1.1);
 }
 
-section h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
-}
+
+
+
+
 .gra-h1 {
     margin: 10rem 0 5rem 0;
 }
