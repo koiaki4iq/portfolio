@@ -127,7 +127,9 @@ main h1 {
 }
 
 .top-about-illust {
-    padding: 10em 0 5em 0;
+    max-width: 100%;
+    height: auto;
+    padding: 10em 0 10em 5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,7 +137,7 @@ main h1 {
 .top-about-text {
     max-width: 100%;
     margin: 0 auto;
-    padding: 18em 0 0 10em;
+    padding: 18em 0 0 3em;
 }
 .more00 {
     display: flex;
