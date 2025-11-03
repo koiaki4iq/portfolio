@@ -244,6 +244,8 @@ article h1 {
         display: block;
     }
     .top-about-illust {
+        width: 20%;
+        height: auto;
         padding: 0;
     }
     .top-about-text {
@@ -262,12 +264,19 @@ article h1 {
     .more01 {
         margin: 0 auto;
     }
+    .top-web-img2 {
+        width: 20%;
+        height: auto;
+        padding: 0;
+    }
 
     .top-gra-img {
         display: flex;
         flex-direction: column-reverse;
     }
     .top-gra-img img {
+        width: 50%;
+        height: auto;
         padding: 0;
     }
 
