@@ -242,10 +242,9 @@ article h1 {
     }
     .top-about-contents {
         display: block;
+        width: 50%;
     }
     .top-about-illust {
-        width: 20%;
-        height: auto;
         padding: 0;
     }
     .top-about-text {
@@ -257,6 +256,7 @@ article h1 {
     }
     .top-web-img {
         display: block;
+        width: 100%;
     }
     .top-web-contents h3 {
         margin: 0 auto;
@@ -265,7 +265,7 @@ article h1 {
         margin: 0 auto;
     }
     .top-web-img2 {
-        width: 20%;
+        width: 5%;
         height: auto;
         padding: 0;
     }
