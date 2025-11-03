@@ -265,19 +265,29 @@ article h1 {
         margin: 0 auto;
     }
     .top-web-img2 {
-        width: 5%;
+        width: 100%;
         height: auto;
         padding: 0;
+    }
+    .top-web-img2 img {
+        width: 60%;
+        height: auto;
     }
 
     .top-gra-img {
         display: flex;
         flex-direction: column-reverse;
     }
+    .top-gra-img h3 {
+        padding: 0 ;
+    }
     .top-gra-img img {
-        width: 50%;
+        width: 80%;
         height: auto;
-        padding: 0;
+        padding: 0 0 5em 0;
+    }
+    .top-gra-img a {
+        padding: 0 0 10em 10em;
     }
 
 } 
