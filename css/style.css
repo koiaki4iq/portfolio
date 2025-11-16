@@ -35,6 +35,9 @@ p {
     font-size: 1.65rem;
     letter-spacing: 0.8;
     line-height: 2.0;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
 }
 
 
@@ -257,9 +260,15 @@ article h1 {
     .top-web-img {
         display: block;
         width: 100%;
+        height: auto;
+        
+    }
+    .top-web-contents {
+        padding-bottom: 4em;
     }
     .top-web-contents h3 {
         margin: 0 auto;
+        padding-bottom: 2em;
     }
     .more01 {
         margin: 0 auto;
@@ -272,21 +281,24 @@ article h1 {
     .top-web-img2 img {
         width: 60%;
         height: auto;
+        margin-bottom: 5rem;
     }
 
     .top-gra-img {
         display: flex;
         flex-direction: column-reverse;
+        
     }
     .top-gra-img h3 {
-        padding: 0 ;
+        margin: 0 auto;
     }
     .top-gra-img img {
         width: 80%;
         height: auto;
-        padding: 0 0 5em 0;
+        padding: 2em 0 5em 0;
     }
     .top-gra-img a {
+        margin-bottom: 5rem;
         padding: 0 0 10em 10em;
     }
 
