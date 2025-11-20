@@ -492,6 +492,17 @@ footer details {
 
 
 
+.wagasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+.wagasi img {
+    width: 780px;
+    height: auto;
+}
+
 .web-distillery01 {
     max-width: 1200px;
     display: flex;
