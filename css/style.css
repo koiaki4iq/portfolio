@@ -69,6 +69,7 @@ nav a:link {
 nav h2{
     font-size: 48px;
     padding: 0.3em 0 0 0.4em;
+    white-space: nowrap;
 }
 
 nav ul {
@@ -108,7 +109,7 @@ details li {
     justify-content: center;
     margin-bottom: 100px;
 }
-@media only screen and (width<440px) {
+@media only screen and (width<500px) {
     
     nav {
         height: 50px;
@@ -245,7 +246,7 @@ article h1 {
 }
 
 
-@media only screen and (width<440px) {
+@media only screen and (width<500px) {
     
     main h1 {
         margin-bottom: 5rem;
@@ -496,11 +497,13 @@ footer details {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
     margin-bottom: 15rem;
 }
 .wagasi img {
-    width: 780px;
+    width: 100%;
     height: auto;
+    margin-left: 5rem;
 }
 
 .web-distillery01 {
@@ -538,7 +541,7 @@ footer details {
     margin-bottom: 5rem;
 }
 .web-ring01 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .web-ring01 p {
@@ -554,7 +557,7 @@ footer details {
     padding: 0 5em 0 0;
 }
 .web-ring02 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .web-chair {
@@ -583,4 +586,63 @@ footer details {
 .web-chair-header img {
     max-width: 100%;
     height: auto;
+}
+
+@media only screen and (width<500px) {
+    article {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wagasi {
+        display: block;
+    }
+    .wagasi p {
+        
+    }
+    .wagasi img {
+        width: 80%;
+        height: auto;
+    }
+    .web-distillery01 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .web-distillery01 img {
+        width: 80%;
+        height: auto;
+    }
+    .web-distillery02 {
+        display: block;
+    }
+    .web-ring01 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .web-ring01 img {
+        width: 80%;
+        height: auto;
+    }
+    .web-ring02 {
+        display: block;
+    }
+    .web-ring02 img {
+        width: 80%;
+        height: auto;
+    }
+    .web-chair {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .web-chair img {
+        width: 80%;
+        height: auto;
+    }
+    .web-chair-header {
+        display: block;
+    }
+    .web-chair-header img {
+        width: 80%;
+        height: auto;
+    }
 }
