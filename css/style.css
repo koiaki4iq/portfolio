@@ -492,11 +492,17 @@ footer details {
 }
 
 
+
+
+
+
+
+
 .steam {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .steam img {
     width: 100%;
@@ -510,6 +516,25 @@ footer details {
 }
 .steam-text p {
     padding-top: 1em;
+}
+.steam2 {
+    margin-bottom: 5rem;
+}
+.steam2img {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.steam2text {
+    margin-top: 1rem;
+    padding: 1em;
+}
+.steam3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
 }
 .wagasi {
     display: flex;
