@@ -14,7 +14,6 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #636363;
-  overflow-y: scroll;
 }
 h1 {
     font-size: 3.6rem;
@@ -105,7 +104,7 @@ nav li {
         height: 50px;
     }
     nav h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     nav ul {
         font-size: 1rem;
@@ -339,24 +338,23 @@ footer details {
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    margin: 0rem 0 0 0;
     padding: 25em 0 0 0;
 }
-.about-section01 h1 {
+/* .about-section01 h1 {
     padding: 0 0 0em 0;
-}
+} */
 
-.about-contents01{
+.about-contents01 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0em 0 30em 0;
+    gap: 5rem;
 }
-.about-contents01 p {
+/* .about-contents01 p {
     padding: 0 0 0 5em;
-}
+} */
 
-.about-section02{
+.about-section02 {
     background-image: url(../img/about-down921691.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -395,8 +393,15 @@ footer details {
 .icon-grid img:hover {
     transform: scale(1.1);
 }
-
-
+@media only screen and (width<500px) {
+    .about-contents01 {
+        display: block;
+    }
+    .nigaoe {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 
@@ -503,6 +508,7 @@ footer details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin: 0 auto;
 }
 .steam-text p {
     padding-top: 1em;
@@ -526,6 +532,8 @@ footer details {
     gap: 2rem;
     margin-bottom: 10rem;
 }
+
+
 .wagasi {
     display: flex;
     justify-content: center;
@@ -545,14 +553,15 @@ footer details {
     justify-content: center;
     align-items: center;
     margin-bottom: 5rem;
+    gap: 5rem;
 }
 .web-distillery01 img {
     width: 100%;
     height: auto;
 }
-.web-distillery01 p {
+/* .web-distillery01 p {
     padding: 0 0 0 5em;
-}
+} */
 .web-distillery02 {
     display: flex;
     justify-content: center;
@@ -572,14 +581,15 @@ footer details {
     justify-content: center;
     align-items: center;
     margin-bottom: 5rem;
+    gap: 5rem;
 }
 .web-ring01 img {
     width: 100%;
     height: auto;
 }
-.web-ring01 p {
+/* .web-ring01 p {
     padding: 0 0 0 5em;
-}
+} */
 .web-ring02 {
     display: flex;
     justify-content: center;
@@ -598,24 +608,26 @@ footer details {
     justify-content: center;
     align-items: center;
     margin-bottom: 15rem;
+    gap: 5rem;
 }
 .web-chair img {
     max-width: 100%;
     height: auto;
 }
-.web-chair p {
+/* .web-chair p {
     padding: 0 0 0 5em;
-}
+} */
 
 .web-chair-header {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
+    gap: 5rem;
 }
-.web-chair-header p {
+/* .web-chair-header p {
     padding: 0 5em 0 0;
-}
+} */
 .web-chair-header img {
     max-width: 100%;
     height: auto;
@@ -627,12 +639,29 @@ footer details {
         height: auto;
         margin: 0 auto;
     }
+    article p {
+        white-space: normal;
+        padding: 1em;
+    }
+    .steam2img {
+        display: block;
+        margin: 2rem;
+    }
+    .steam2img img {
+        padding: 1em;
+    }
+    .steam3 {
+        display: block;
+    }
+    .steam3df {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
     .wagasi {
         display: block;
     }
-    .wagasi p {
-        
-    }
+    
     .wagasi img {
         width: 80%;
         height: auto;
@@ -648,6 +677,11 @@ footer details {
     .web-distillery02 {
         display: block;
     }
+    .web-distillery02 img {
+        width: 70%;
+        height: auto;
+        padding: 3em;
+    }
     .web-ring01 {
         display: flex;
         flex-direction: column-reverse;
@@ -660,8 +694,9 @@ footer details {
         display: block;
     }
     .web-ring02 img {
-        width: 80%;
+        width: 60%;
         height: auto;
+        padding-left: 3em;
     }
     .web-chair {
         display: flex;
@@ -677,6 +712,7 @@ footer details {
     .web-chair-header img {
         width: 80%;
         height: auto;
+        padding: 3em;
     }
 }
 
