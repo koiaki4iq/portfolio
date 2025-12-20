@@ -625,7 +625,7 @@ section h3 {
     padding: 0 5em 0 0;
 }
 .web-ring02 img {
-    width: 100%;
+    width: 30%;
     height: auto;
 }
 .web-chair {
@@ -677,11 +677,6 @@ section h3 {
     }
     .steam3 {
         display: block;
-    }
-    .steam3df {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
     }
     .wagasi {
         display: block;
