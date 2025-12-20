@@ -409,28 +409,27 @@ footer details {
     margin: 10rem 0 5rem 0;
 }
 
-
+section h3 {
+    margin-bottom: 3rem;
+}
 .gra-wine01 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 5rem;
+    gap: 5rem;
 }
 .gra-wine01 img {
     max-width: 100%;
     height: auto;
 }
-.gra-wine01 p {
-    padding: 0 0 0 5em;
-}
+
 .gra-wine02 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15rem ;
-}
-.gra-wine02 p {
-    padding: 0 5em 0 0;
+    gap: 5rem;
 }
 .gra-wine02 img {
     max-width: 100%;
@@ -443,35 +442,29 @@ footer details {
     justify-content: center;
     align-items: center;
     margin-bottom: 15rem;
+    gap: 5rem;
 }
 .gra-ring01 img {
     max-width: 100%;
     height: auto;
 }
-
-.fryer P {
-    padding: 3em 0 1em 0;
-}
-.fryer img {
-    margin-top: 5rem;
-}
-.shopcard {
-    padding: 0 0 0 10em;
-}
 .shopcard p {
-    padding: 3em 0 0 3em;
+    margin-top: 3rem;
 }
+
+
+
 
 .gra-leaflet {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15rem;
+    gap: 5rem;
 }
 .gra-leaflet img {
     max-width: 100%;
     height: auto;
-    padding: 0 10em 0 0;
 }
 
 .gra-businesscard {
@@ -479,13 +472,45 @@ footer details {
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
+    gap: 5rem;
 }
 .gra-businesscard img {
     max-width: 100%;
     height: auto;
-    padding: 0 0 0 10rem;
 }
+@media only screen and (width<500px) {
+    .gra-wine01 {
+        display: block;
+    }
+    .gra-wine02 {
+        display: block;
+    }
+    .winedf {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
+    .gra-ring01 {
+        display: block;
+    }
+    .fryer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fryer img {
+        padding: 3em;
+    }
+    .gra-leaflet {
+        display: block;
+    }
+    .gra-businesscard {
+        display: block;
+    }
+    .bcdf {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 
 
