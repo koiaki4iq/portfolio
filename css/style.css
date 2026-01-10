@@ -409,7 +409,8 @@ footer details {
     margin: 10rem 0 5rem 0;
 }
 
-section h3 {
+main h3 {
+    text-align: center;
     margin-bottom: 3rem;
 }
 .gra-wine01 {
@@ -517,7 +518,21 @@ section h3 {
 
 
 
-
+.design-works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 2rem 0 10rem 0;
+}
+.dw-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dw-txt p{
+    padding: 1rem;
+}
 .steam {
     display: flex;
     flex-direction: column;
