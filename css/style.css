@@ -674,6 +674,10 @@ main h3 {
 }
 
 @media only screen and (width<500px) {
+    .design-works {
+        display: block;
+        text-align: center;
+    }
     article {
         width: 100%;
         height: auto;
@@ -749,5 +753,6 @@ main h3 {
         height: auto;
         padding: 3em;
     }
+    
 }
 
